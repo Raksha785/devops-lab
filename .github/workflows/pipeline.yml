@@ -13,7 +13,7 @@ build:
     - name:Install dependencies
       run:echo "Installing dependencies... done."
     - name: Run tests
-      run:echo "Running tests... all tests passed."
+      run: echo "Running tests... all tests passed."
     - name:Build application
       run:echo "Building application..... build successful."
     - name: Pipeline complete
